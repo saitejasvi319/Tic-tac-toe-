@@ -1,0 +1,29 @@
+body{
+    background-color: burlywood;
+}
+section#tictactoe {
+    width: 560px;
+  }
+  
+  button.btn {
+    display: inline-block;
+    height: 160px;
+    margin-bottom: 4px;
+    vertical-align: top;
+    width: 160px;
+  }
+
+  #reset{
+    padding: 10px;
+    color: rgb(22, 22, 21);
+    background-color: rgb(252, 188, 165);
+    border-radius: 6px;
+  }
+
+  #reset:hover{
+      background-color: coral;
+  }
+  button.btn:hover {
+    cursor: pointer;
+    color: rgb(151, 151, 151);
+  }
