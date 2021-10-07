@@ -48,6 +48,26 @@
   cursor: pointer;
 }
 
+.tile:first-child,
+.tile:nth-child(2),
+.tile:nth-child(3) {
+  border-top: none;
+}
+
+.tile:nth-child(3n + 1) {
+  border-left: none;
+}
+
+.tile:nth-child(3n + 3) {
+  border-right: none;
+}
+
+.tile:last-child,
+.tile:nth-child(8),
+.tile:nth-child(7) {
+  border-bottom: none;
+}
+
 .playerX {
   color: hsl(91, 100%, 42%);
 }
@@ -90,3 +110,4 @@
   background-color: rgb(255, 94, 0);
   color: #ffffff;
 }
+
